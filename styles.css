@@ -3,8 +3,8 @@
 <head>
 <style>
 body {
- background-image: source="ap21298698399010_custom-defc10b7fae5476963b8d46585557d6eaa4f20bc-s1100-c50.jpg";
- background-color: #cccccc;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #fcfcfc;
 }
 
 h1 {
