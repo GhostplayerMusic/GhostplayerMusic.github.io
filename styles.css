@@ -56,6 +56,11 @@ h1 {
 
 h2 {
   font-size: 60px;
+  text-align: left;
+  margin-left: 22%;
+  margin-right: 22%;
+  background-color:rgba(0, 0, 0, 0.5);
+  margin-bottom: 0px;
 }
 
 p {
@@ -73,4 +78,25 @@ p {
   font-weight:bold;
   text-align:center;
   background-color:rgba(0, 0, 0, 0.5);
+}
+
+li{
+  font-size: 40px;
+  text-align: left;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.flexcontainer{
+  display:flex;
+  align-items:left;
+  font-size: 40px;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+@media (max-width: 2000) {
+  .flexcontainer {
+    display:inline-block;
+    text-align: left
+  }
 }
