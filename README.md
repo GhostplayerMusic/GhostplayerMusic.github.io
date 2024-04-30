@@ -27,3 +27,18 @@ Successes: Aligning header, paragraphs, and labels
 Also, changing background scroll speed using a .js file
 
 Work left: main page, inline links, second page
+
+More references:
+https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/
+https://stackoverflow.com/questions/3341011/making-a-button-thats-a-link-in-html
+https://www.sliderrevolution.com/resources/html-calendar/
+https://codepen.io/xmark/pen/WQaXdv
+https://www.w3schools.com/js/js_if_else.asp
+https://www.quora.com/Can-I-connect-more-than-two-CSS-files-to-a-single-HTML-file#:~:text=Yes%20you%20can%20use%20multiple,one%20for%20each%20CSS%20file.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR
+https://css-tricks.com/snippets/html/mailto-links/
+https://herotofu.com/solutions/guides/how-to-build-html-form-that-sends-email
+
+Successes: Added calendar to main page, fixed image with labels, second page has booking form
+
+Work left: Finish paragraphs, about, booking page
