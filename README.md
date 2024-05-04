@@ -42,3 +42,5 @@ https://herotofu.com/solutions/guides/how-to-build-html-form-that-sends-email
 Successes: Added calendar to main page, fixed image with labels, second page has booking form
 
 Work left: Finish paragraphs, about, booking page
+
+More references:

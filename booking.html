@@ -9,10 +9,15 @@
   </header>
   <body>
     <div class="tile"></div>
-    <div class = 'top'><h1>Booking</h1></div>
-    <div style="z-index: 200;"><button>Home</button></div>
-    <br><br><br><br><br><br><br><br>
-    <div class = 'title_vid'><iframe width="560" height="315" src="https://www.youtube.com/embed/4B0Tq9pC7Hk?si=C5MAiXgTNM_Vb5nj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div><nav style="text-align:left;background-color: rgb(0,0,0,0.5);">
+      <a href="index.html">Home</a> |
+      <a href="booking.html"><strong>Booking</strong></a> |
+      <a href="/js/">JavaScript</a> |
+      <a href="/python/">Python</a>
+    </nav></div>
+      <div><h1>Booking</h1></div>
+      <br><br><br>
+      <div class = 'title_vid'><iframe width="560" height="315" src="https://www.youtube.com/embed/4B0Tq9pC7Hk?si=C5MAiXgTNM_Vb5nj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
     <br>
     <div class="title"><blockquote>Placeholder video</blockquote></div>
     <p>Hello!</p>
@@ -22,11 +27,12 @@
     </div>
     <form action="mailto:ghostplayermusic@gmail.com" method="GET">
       <div>
-        <input type="text" placeholder="Subject" name="subject" style="max-width: 300px" required />
+        <input type="text" placeholder="Name" name="name" style="max-width: 150px" required />
+        <input type="text" placeholder="Subject" name="subject" style="max-width: 150px" required />
       </div>
       <br>
       <div>
-        <textarea placeholder="Your message" name="body" style="max-width: 300px" required></textarea>
+        <textarea placeholder="Your message" name="body" style="max-width: 370px" required></textarea>
       </div>
       <div>
         <button type="submit" class="button">Submit</button>

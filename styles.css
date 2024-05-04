@@ -23,7 +23,7 @@ body {
   top:0;
   left: 12vw;
   display:inline;
-  height: 3000px;
+  height: 4000px;
   width: 75vw;
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8edf9950-2c61-48ed-9a27-b4044e2e4723/d6c0a9t-13ae74a8-22d2-4489-bccc-b820d99d9af9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhlZGY5OTUwLTJjNjEtNDhlZC05YTI3LWI0MDQ0ZTJlNDcyM1wvZDZjMGE5dC0xM2FlNzRhOC0yMmQyLTQ0ODktYmNjYy1iODIwZDk5ZDlhZjkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rbO8O-7xA6fXm5u3pmEIK3qY3EkD34SKfv-aweyAdQI);
   background-position: center;
@@ -33,12 +33,15 @@ body {
   z-index: -1;
   
 }
-
+nav{
+  position:fixed;
+}
 h1 {
   font-size: 100px;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgb(0,0,0,0.5);
   width: 100%;
-  padding: 0px;
+  margin-top:0px;
+  margin-bottom:0;
 }
 
 h3{
@@ -52,10 +55,10 @@ h3{
 }
 
 .top {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  margin-top: -69px;
+  margin-top: 0;
   width: 100%;
   z-index: 1;
 }
@@ -96,7 +99,7 @@ p {
   width: 560px;
   margin-top:-5px;
   font-weight:bold;
-  text-align:center;
+  text-align:left;
   background-color:rgba(0, 0, 0, 0.5);
 }
 
@@ -296,7 +299,9 @@ textarea {
   color: white;
   border-radius: 4px;
 }
-
+hr{
+  width:75%; height: 1px;color: #fff;background: #000; 
+}
 input:focus,
 textarea:focus { outline: 0; }
 
@@ -357,3 +362,39 @@ color: #f00;
 font-style: normal;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b b"
+    "a a a a b b b b b"
+    "c c c c c c c c c";
+  background-color: rgb(0,0,0,0.5);
+  margin-left:22%;
+  margin-right:22%;
+}
+.item1 {
+  grid-area: a;
+  align-self: top;
+  justify-self: top;
+  text-align: left;
+}
+.item2 {
+  grid-area: b;
+}
+.item3 {
+  grid-area: c;
+  align-self:left;
+  text-align: left;
+}
+
+.bottom{
+  background-color: #000;
+  font-size:30px;
+  position: absolute;
+  bottom: 6000;
+  left:12vw;
+  width: 75%;
+}
