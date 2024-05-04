@@ -364,7 +364,7 @@ font-style: normal;
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: relative(2, 1fr);
   gap: 10px;
   grid-auto-rows: 100px;
   grid-template-areas:
@@ -377,8 +377,8 @@ font-style: normal;
 }
 .item1 {
   grid-area: a;
-  align-self: top;
-  justify-self: top;
+  align-self: left;
+  justify-self: left;
   text-align: left;
 }
 .item2 {
@@ -397,4 +397,42 @@ font-style: normal;
   bottom: 6000;
   left:12vw;
   width: 75%;
+}
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px solid;
+}
+
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  animation: colorRotate 1s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+.rainbowbg{
+  background-image: url("rainbow.gif")
 }

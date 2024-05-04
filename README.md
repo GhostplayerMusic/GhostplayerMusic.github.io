@@ -44,3 +44,18 @@ Successes: Added calendar to main page, fixed image with labels, second page has
 Work left: Finish paragraphs, about, booking page
 
 More references:
+https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way-to-code-it-in-html-css
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+https://www.w3schools.com/css/css_dropdowns.asp
+
+https://chatgpt.com: Used to generate website introduction using the following prompt:
+"Write a website introduction for Ghostplayer: a music producer and musician studying Electronic Production and Design (EPD) at Berklee who is available for DJing local events Summer 2024 in Camden Maine"
+Using GPT 3.5
+
+Result: "Welcome to the electrifying realm of Ghostplayer, where music transcends boundaries and ignites souls. As a dynamic music producer and skilled musician, Ghostplayer's sonic journey is fueled by a fusion of (passion and innovation) [changed to: electronic music and organic rhythmic performance]. Currently immersed in the vibrant world of Electronic Production and Design (EPD) at Berklee, Ghostplayer's expertise lies in crafting mesmerizing soundscapes that captivate audiences worldwide.
+
+Summer 2024 heralds an exciting chapter for Ghostplayer, as the beatsmith sets sights on Camden, Maine, ready to infuse local events with unparalleled energy. Whether it's a pulsating DJ set or a live performance that resonates with raw emotion, Ghostplayer's musical prowess promises to elevate every moment, turning gatherings into unforgettable experiences.
+
+Prepare to embark on a sonic adventure like no other, as Ghostplayer unveils a tapestry of sound that defies convention and invites you to dance to the rhythm of your own heartbeat. Join the movement, feel the vibe, and let Ghostplayer be the soundtrack to your summer soirées in Camden, Maine, and beyond."
+
+https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css
