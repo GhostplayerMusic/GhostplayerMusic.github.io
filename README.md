@@ -59,3 +59,9 @@ Summer 2024 heralds an exciting chapter for Ghostplayer, as the beatsmith sets s
 Prepare to embark on a sonic adventure like no other, as Ghostplayer unveils a tapestry of sound that defies convention and invites you to dance to the rhythm of your own heartbeat. Join the movement, feel the vibe, and let Ghostplayer be the soundtrack to your summer soirées in Camden, Maine, and beyond."
 
 https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+https://www.geeksforgeeks.org/how-to-set-position-absolute-but-relative-to-parent-in-css/
+
+Successes: More gnomes, finished about and booking page, polished nav links
+
+Work left; None!
