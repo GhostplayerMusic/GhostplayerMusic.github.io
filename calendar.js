@@ -114,7 +114,7 @@ Cal.prototype.showMonth = function(y, m) {
     else if(this.currMonth>7 || this.currMonth<5){
       html += '<td class="normal">' + i + '</td>'
     }
-    else if (i > 12) {
+    else if (i > 7) {
       html += '<td class="unavail">' + i + '</td>';
     }
     else {
