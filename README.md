@@ -66,23 +66,25 @@ Successes: More gnomes, finished about and booking page, polished nav links
 
 Work left; None!
 
-## PROJECT NAME: 
+## PROJECT NAME:
 # Ghostplayer DJ Site
 ### Motivation:
-I plan to spend the summer DJing local events back home in Maine, and decided to make a website for the purpose of getting DJ gigs. 
+I plan to spend the summer DJing local events back home in Maine, and decided to make a website for the purpose of getting DJ gigs.
 
 ### Philosophy:
-My original idea behind this project was to make an exciting-looking store page to sell digital products. I did this using Payhip, but this didn't involve actual coding. 
+My original idea behind this project was to make an exciting-looking store page to sell digital products. I did this using Payhip, but this didn't involve actual coding.
 <br>
-With about 3 weeks left in the semester, I changed my approach to using pure css, html and javascript and designing something functional, if not attractive. 
+With about 3 weeks left in the semester, I changed my approach to using pure css, html and javascript and designing something functional, if not attractive.
 
 ### Inspirations:
-I was inspired to design a landing page for people looking for a local DJ. My main idea was to have a front page open with a video of my final performance in my DJ class, ISEL-250, which is tomorrow afternoon. The rest of the website provides some information about me, and directs to a booking page where there is a mailto form to schedule events. 
+I was inspired to design a landing page for people looking for a local DJ. My main idea was to have a front page open with a video of my final performance in my DJ class, ISEL-250, which is tomorrow afternoon. The rest of the website provides some information about me, and directs to a booking page where there is a mailto form to schedule events.
+
+![title](Users/ghostplayer/Documents/GitHub/GhostplayerMusic.github.io/website_idea.jpeg)
 
 ### Software Description
-I started this project with absolutely 0 experience coding anything in html or css, besides the very silly website we made in class. 
+I started this project with absolutely 0 experience coding anything in html or css, besides the very silly website we made in class.
 
-I started by figuring out the very basics, and the first day was rough. I spent a very long time aligning the header and trying to get things centered on the page. I was happy to create a layered backgound using two image sources. I also found a javascript file that changes the background scroll speed, which I was able to implement successfully. 
+I started by figuring out the very basics, and the first day was rough. I spent a very long time aligning the header and trying to get things centered on the page. I was happy to create a layered backgound using two image sources. I also found a javascript file that changes the background scroll speed, which I was able to implement successfully.
 
 The next weeks were simply adding and adjusting elements to get to the final product. It's not the prettiest thing in the world, but everything functions correctly and is more or less aligned properly. I was able to add header links using nav, a calendar that uses javascript to show my availability, and a submittable form using buttons. The last days I wrapped everything up making some adjustments to the layout, and adding a secret page...
 
