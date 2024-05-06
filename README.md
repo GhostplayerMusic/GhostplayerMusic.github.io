@@ -61,8 +61,11 @@ Prepare to embark on a sonic adventure like no other, as Ghostplayer unveils a t
 https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
 https://www.geeksforgeeks.org/how-to-set-position-absolute-but-relative-to-parent-in-css/
+https://stackoverflow.com/questions/41604263/how-do-i-display-local-image-in-markdown
 
-Successes: More gnomes, finished about and booking page, polished nav links
+Successes: More gnomes, finished about and booking page, polished nav links.
+
+Added project description for presentation below.
 
 Work left; None!
 
