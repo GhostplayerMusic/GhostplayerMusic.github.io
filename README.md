@@ -79,7 +79,7 @@ With about 3 weeks left in the semester, I changed my approach to using pure css
 ### Inspirations:
 I was inspired to design a landing page for people looking for a local DJ. My main idea was to have a front page open with a video of my final performance in my DJ class, ISEL-250, which is tomorrow afternoon. The rest of the website provides some information about me, and directs to a booking page where there is a mailto form to schedule events.
 
-![title](Users/ghostplayer/Documents/GitHub/GhostplayerMusic.github.io/website_idea.jpeg)
+![title](website_idea.jpeg)
 
 ### Software Description
 I started this project with absolutely 0 experience coding anything in html or css, besides the very silly website we made in class.
